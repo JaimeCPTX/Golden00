@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
 
         binding.button011.setOnClickListener(
-            {startActivity(Intent(this, Cuestionario01::class.java))
+            {startActivity(Intent(this, Cuestionario1::class.java))
             })
 
     /*    val boton011 = findViewById<Button>(R.id.button011)
