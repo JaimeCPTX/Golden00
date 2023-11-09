@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Lo primero de todo será completar el siguiente cuestionario sobre SALUD FÍSICA"
+            android:text="ZZZZ  Lo primero de todo será completar el siguiente cuestionario sobre SALUD FÍSICA"
             android:textAlignment="center"
             android:textSize="20sp"
             android:textStyle="normal" />
