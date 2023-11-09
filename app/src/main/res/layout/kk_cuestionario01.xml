@@ -3,18 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Cuestionario1">
-<ScrollView
-android:layout_width="fill_parent"
-android:layout_height="wrap_content">
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-
-
+    tools:context=".Cuestionario01">
 
     <TextView
         android:id="@+id/text5"
@@ -24,25 +15,17 @@ android:layout_height="wrap_content">
         android:text="Golden Age"
         android:textAlignment="center"
         android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/text6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Lo primero de todo será completar el siguiente cuestionario sobre SALUD FÍSICA"
+        android:text="ZZZZ  Lo primero de todo será completar el siguiente cuestionario sobre SALUD FÍSICA"
         android:textAlignment="center"
         android:textSize="20sp"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text5" />
+        android:textStyle="normal" />
 
     <TextView
         android:id="@+id/text7"
@@ -53,19 +36,12 @@ android:layout_height="wrap_content">
         android:text="1. Galdera: Baduzu etxean txirruindula estatikorik?"
         android:textAlignment="textStart"
         android:textSize="20sp"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text6" />
+        android:textStyle="normal" />
 
     <RadioGroup
         android:id="@+id/radioGroup11"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text7">
+        android:layout_height="wrap_content">
 
         <RadioButton
             android:id="@+id/radioButtonFis11"
@@ -87,7 +63,6 @@ android:layout_height="wrap_content">
             android:layout_height="wrap_content"
             android:background="@color/oria"
             android:text="Bai baina ezin dut erabili apurtuta dagoelako" />
-
     </RadioGroup>
 
     <TextView
@@ -99,20 +74,13 @@ android:layout_height="wrap_content">
         android:text="2. Galdera: Astero zenbatetan joaten zara paseatzera?"
         android:textAlignment="textStart"
         android:textSize="20sp"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup11" />
+        android:textStyle="normal" />
 
     <RadioGroup
         android:id="@+id/radioGroup12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/morea"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text8">
+        android:background="@color/morea">
 
         <RadioButton
             android:id="@+id/radioButtonFis21"
@@ -145,19 +113,12 @@ android:layout_height="wrap_content">
         android:text="3. Galdera: Aukeratu egokiena"
         android:textAlignment="textStart"
         android:textSize="20sp"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup12" />
+        android:textStyle="normal" />
 
     <RadioGroup
         android:id="@+id/radioGroup13"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text9">
+        android:layout_height="wrap_content">
 
         <RadioButton
             android:id="@+id/radioButtonFis31"
@@ -183,7 +144,7 @@ android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radioButtonFis34"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="34dp"
             android:background="@color/berdea"
             android:text="ddd" />
 
@@ -205,13 +166,8 @@ android:layout_height="wrap_content">
 
     <Button
         android:id="@+id/buttonFis1"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Siguiente"
-        tools:layout_editor_absoluteY="844dp" />
-
-</LinearLayout>
-</ScrollView>
+        android:text="Finalizar" />
 
 </LinearLayout>
