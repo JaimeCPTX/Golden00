@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text011"
+        android:layout_width="284dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/crafty_girls"
+        android:text="Por una vida saludable "
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text4" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="284dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/crafty_girls"
+        android:text="Golden Age"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text012"
+        android:layout_width="0dp"
+        android:layout_height="84dp"
+        android:background="@color/urdin"
+        android:text="Si ya estás registrado selecciona tu nombre y pulsa en &quot;Seguir&quot;."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text014" />
+
+    <TextView
+        android:id="@+id/text014"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/urdin"
+        android:text="HOLA !"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text011" />
+
+    <TextView
+        android:id="@+id/text013"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="68dp"
+        android:background="@color/morea"
+        android:text="Si eres nuevo usuario pulsa el botón &quot;Nuevo Usuario&quot;"
+        android:textAlignment="center"
+        android:textColor="#0B0B0B"
+        android:textColorHint="#0C0C0C"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner011" />
+
+    <Spinner
+        android:id="@+id/spinner011"
+        android:layout_width="151dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:entries="@array/izenak"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text012" />
+
+    <Button
+        android:id="@+id/button011"
+        style="@style/Botoiak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/urdin"
+        android:text="Seguir"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner011"
+        app:layout_constraintEnd_toEndOf="@+id/text012"
+        app:layout_constraintStart_toEndOf="@+id/spinner011"
+        app:layout_constraintTop_toBottomOf="@+id/text012" />
+
+    <Button
+        android:id="@+id/button012"
+        style="@style/Botoiak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/morea"
+        android:text="Nuevo Usuario"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/spinner011"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text013" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

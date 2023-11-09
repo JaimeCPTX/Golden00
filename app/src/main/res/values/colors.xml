@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="urdin">#8CE5F1</color>
+    <color name="berdea">#B1F6B4</color>
+    <color name="oria">#F3ECB1</color>
+    <color name="morea">#B597EB</color>
+</resources>
